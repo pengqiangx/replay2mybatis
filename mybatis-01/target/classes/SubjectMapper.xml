@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper nameSpace="com.github.pq.mapper.SubjectMapper">
+    <select id="getSubject" resultType ="com.github.pq.pojo.MySubject">
+        select * from subject where id = ?
+    </select>
+</mapper>
